@@ -1,7 +1,7 @@
 #!groovy
-@Library('jenkinslib')_
+@Library('jenkinslib')_   //加载动态库
 def tools= new org.devops.tools()
-
+hello() //调用sharelibrary里面的vars的hello
 pipeline{
     agent{node{
         label "master" //指定运行节点的标签或者名称
