@@ -1,4 +1,3 @@
-//https://github.com/Aaron880/jenkinslib.git
 #!groovy
 @Library('jenkinslib')_   //加载动态库
 def tools= new org.devops.ColourPrint()
